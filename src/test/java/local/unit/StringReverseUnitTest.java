@@ -20,13 +20,13 @@ final class StringReverseUnitTest {
     private static String actualResult;
 
     @Test
-    void bySimpleFullTraversal() {
-        actualResult = StringReverse.byStringBuilderReverse(RANDOM_ASCII_STRING);
+    void bySimpleFullTraversal_randomAsciiString() {
+        actualResult = StringReverse.bySimpleFullTraversal(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
     }
 
     @Test
-    void byStringBuilderReverse() {
+    void byStringBuilderReverse_randomAsciiString() {
         actualResult = StringReverse.byStringBuilderReverse(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
     }
@@ -49,7 +49,7 @@ final class StringReverseUnitTest {
     }
 
     @Test
-    void byTraverseToMidpoint() {
+    void byTraverseToMidpoint_randomAsciiString() {
         actualResult = StringReverse.byTraverseToMidpoint(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
     }
