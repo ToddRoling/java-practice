@@ -3,14 +3,15 @@ package com.github.toddroling.java.interview.preperation.string;
 public final class StringReverse {
 
     public static String byRecursion(final String string) {
-
         if (string == null || string.isBlank() || string.isEmpty())
             return string;
         return byRecursionHelper(string);
     }
 
     public static String byRecursionHelper(final String string) {
+
         int stringLength = string.length();
+
         if (stringLength > 1) {
             String stringWithoutLastCharacter = string.substring(0, stringLength - 1);
             char lastCharacter = string.charAt(stringLength - 1);
@@ -32,10 +33,8 @@ public final class StringReverse {
     }
 
     public static String byStringBuilderReverse(final String string) {
-
         if (string == null || string.isBlank() || string.isEmpty())
             return string;
-
         return new StringBuilder(string).reverse().toString();
     }
 
