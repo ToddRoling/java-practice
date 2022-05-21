@@ -20,6 +20,12 @@ final class StringReverseUnitTest {
     private static String actualResult;
 
     @Test
+    void bySimpleFullTraversal() {
+        actualResult = StringReverse.byStringBuilderReverse(RANDOM_ASCII_STRING);
+        assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
+    }
+
+    @Test
     void byStringBuilderReverse() {
         actualResult = StringReverse.byStringBuilderReverse(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);

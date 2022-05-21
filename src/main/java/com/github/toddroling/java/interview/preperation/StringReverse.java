@@ -6,6 +6,18 @@ public final class StringReverse {
         return new StringBuilder(string).reverse().toString();
     }
 
+    public static String bySimpleFullTraversal(final String string) {
+
+        if (string == null || string.isBlank() || string.isEmpty())
+            return string;
+
+        StringBuilder result = new StringBuilder();
+        for(int i = (string.length() - 1); i >= 0; --i) {
+            result.append(string.charAt(i));
+        }
+        return result.toString();
+    }
+
     public static String byTraverseToMidpoint(final String string) {
 
         if (string == null || string.isBlank() || string.isEmpty())
