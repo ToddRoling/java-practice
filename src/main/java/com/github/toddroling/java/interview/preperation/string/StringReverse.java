@@ -8,7 +8,7 @@ public final class StringReverse {
         return byRecursionHelper(string);
     }
 
-    public static String byRecursionHelper(final String string) {
+    private static String byRecursionHelper(final String string) {
 
         int stringLength = string.length();
 
