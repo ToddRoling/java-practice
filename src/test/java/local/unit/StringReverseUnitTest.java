@@ -22,6 +22,29 @@ final class StringReverseUnitTest {
     private static String actualResult;
 
     @Test
+    void byRecursion_blankString() {
+        actualResult = StringReverse.byRecursion(BLANK_STRING);
+        assertEquals(BLANK_STRING, actualResult);
+    }
+
+    @Test
+    void byRecursion_emptyString() {
+        actualResult = StringReverse.byRecursion(StringUtils.EMPTY);
+        assertEquals(StringUtils.EMPTY, actualResult);
+    }
+
+    @Test
+    void byRecursion_null() {
+        assertNull(StringReverse.byRecursion(null));
+    }
+
+    @Test
+    void byRecursion_randomAsciiString() {
+        actualResult = StringReverse.byRecursion(RANDOM_ASCII_STRING);
+        assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
+    }
+
+    @Test
     void bySimpleFullTraversal_blankString() {
         actualResult = StringReverse.bySimpleFullTraversal(BLANK_STRING);
         assertEquals(BLANK_STRING, actualResult);
