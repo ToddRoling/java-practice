@@ -38,7 +38,7 @@ public final class StringReverse {
         return new StringBuilder(string).reverse().toString();
     }
 
-    public static String byTraverseFromBothEnds(final String string) {
+    public static String byTraversalFromBothEnds(final String string) {
 
         if (string == null || string.isBlank() || string.isEmpty())
             return string;
@@ -57,7 +57,7 @@ public final class StringReverse {
         return new String(charArray);
     }
 
-    public static String byTraverseToMidpoint(final String string) {
+    public static String byTraversalToMidpoint(final String string) {
 
         if (string == null || string.isBlank() || string.isEmpty())
             return string;

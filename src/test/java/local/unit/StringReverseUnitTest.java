@@ -91,48 +91,48 @@ final class StringReverseUnitTest {
     }
 
     @Test
-    void byTraverseFromBothEnds_blankString() {
-        actualResult = StringReverse.byTraverseFromBothEnds(BLANK_STRING);
+    void byTraversalFromBothEnds_blankString() {
+        actualResult = StringReverse.byTraversalFromBothEnds(BLANK_STRING);
         assertEquals(BLANK_STRING, actualResult);
     }
 
     @Test
-    void byTraverseFromBothEnds_emptyString() {
-        actualResult = StringReverse.byTraverseFromBothEnds(StringUtils.EMPTY);
+    void byTraversalFromBothEnds_emptyString() {
+        actualResult = StringReverse.byTraversalFromBothEnds(StringUtils.EMPTY);
         assertEquals(StringUtils.EMPTY, actualResult);
     }
 
     @Test
-    void byTraverseFromBothEnds_null() {
-        assertNull(StringReverse.byTraverseFromBothEnds(null));
+    void byTraversalFromBothEnds_null() {
+        assertNull(StringReverse.byTraversalFromBothEnds(null));
     }
 
     @Test
-    void byTraverseFromBothEnds_randomAsciiString() {
-        actualResult = StringReverse.byTraverseFromBothEnds(RANDOM_ASCII_STRING);
+    void byTraversalFromBothEnds_randomAsciiString() {
+        actualResult = StringReverse.byTraversalFromBothEnds(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
     }
 
     @Test
-    void byTraverseToMidpoint_blankString() {
-        actualResult = StringReverse.byTraverseToMidpoint(BLANK_STRING);
+    void byTraversalToMidpoint_blankString() {
+        actualResult = StringReverse.byTraversalToMidpoint(BLANK_STRING);
         assertEquals(BLANK_STRING, actualResult);
     }
 
     @Test
-    void byTraverseToMidpoint_emptyString() {
-        actualResult = StringReverse.byTraverseToMidpoint(StringUtils.EMPTY);
+    void byTraversalToMidpoint_emptyString() {
+        actualResult = StringReverse.byTraversalToMidpoint(StringUtils.EMPTY);
         assertEquals(StringUtils.EMPTY, actualResult);
     }
 
     @Test
-    void byTraverseToMidpoint_null() {
-        assertNull(StringReverse.byTraverseToMidpoint(null));
+    void byTraversalToMidpoint_null() {
+        assertNull(StringReverse.byTraversalToMidpoint(null));
     }
 
     @Test
-    void byTraverseToMidpoint_randomAsciiString() {
-        actualResult = StringReverse.byTraverseToMidpoint(RANDOM_ASCII_STRING);
+    void byTraversalToMidpoint_randomAsciiString() {
+        actualResult = StringReverse.byTraversalToMidpoint(RANDOM_ASCII_STRING);
         assertEquals(DEFAULT_EXPECTED_RESULT, actualResult);
     }
 }

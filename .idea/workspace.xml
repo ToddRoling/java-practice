@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="added a string reversal variation">
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="made method private">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/StringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringReverseUnitTest.byTraversalToMidpoint_blankString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
+      <option name="METHOD_NAME" value="byTraversalToMidpoint_blankString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringReverseUnitTest.byTraverseFromBothEnds_blankString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
@@ -85,22 +102,6 @@
       <option name="PACKAGE_NAME" value="local.unit" />
       <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
       <option name="METHOD_NAME" value="byTraverseFromBothEnds_blankString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringReverseUnitTest.byTraverseFromBothEnds_emptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-interview-preperation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="local.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byTraverseFromBothEnds_emptyString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringReverseUnitTest" />
+        <item itemvalue="JUnit.StringReverseUnitTest.byTraversalToMidpoint_blankString" />
         <item itemvalue="JUnit.StringReverseUnitTest.byRecursion_randomAsciiString" />
         <item itemvalue="JUnit.StringReverseUnitTest.byTraverseToMidpoint_emptyString" />
         <item itemvalue="JUnit.StringReverseUnitTest.byTraverseFromBothEnds_blankString" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byTraverseFromBothEnds_emptyString" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653175996045</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added a string reversal variation">
+      <created>1653176056906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653176056906</updated>
+    </task>
+    <task id="LOCAL-00013" summary="made method private">
+      <created>1653176087835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653176087835</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +251,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commits (continued)" />
     <MESSAGE value="added a string reversal variation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a string reversal variation" />
+    <MESSAGE value="made method private" />
+    <option name="LAST_COMMIT_MESSAGE" value="made method private" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
