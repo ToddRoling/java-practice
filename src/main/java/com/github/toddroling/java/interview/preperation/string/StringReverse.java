@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation;
+package com.github.toddroling.java.interview.preperation.string;
 
 public final class StringReverse {
 
@@ -15,6 +15,10 @@ public final class StringReverse {
     }
 
     public static String byStringBuilderReverse(final String string) {
+
+        if (string == null || string.isBlank() || string.isEmpty())
+            return string;
+
         return new StringBuilder(string).reverse().toString();
     }
 

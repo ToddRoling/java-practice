@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="added a string reversal variation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/StringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/StringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseUnitTest.byStringBuilderReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringReverseUnitTest,bySimpleFullTraversal_randomAsciiString and 7 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="local.unit.StringReverseUnitTest,bySimpleFullTraversal_randomAsciiString" />
+        <pattern testClass="local.unit.StringReverseUnitTest,bySimpleFullTraversal_emptyString" />
+        <pattern testClass="local.unit.StringReverseUnitTest,bySimpleFullTraversal_null" />
+        <pattern testClass="local.unit.StringReverseUnitTest,byStringBuilderReverse_randomAsciiString" />
+        <pattern testClass="local.unit.StringReverseUnitTest,byTraverseFromBothEnds_emptyString" />
+        <pattern testClass="local.unit.StringReverseUnitTest,byTraverseFromBothEnds_null" />
+        <pattern testClass="local.unit.StringReverseUnitTest,byTraverseFromBothEnds_randomAsciiString" />
+        <pattern testClass="local.unit.StringReverseUnitTest,byTraverseToMidpoint_randomAsciiString" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverseUnitTest.byTraverseFromBothEnds_blankString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +86,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
       <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byStringBuilderReverse" />
+      <option name="METHOD_NAME" value="byTraverseFromBothEnds_blankString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +108,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringReverseUnitTest.byTraverseToMidpoint_emptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
+      <option name="METHOD_NAME" value="byTraverseToMidpoint_emptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringReverseUnitTest" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byStringBuilderReverse" />
+        <item itemvalue="JUnit.StringReverseUnitTest.byTraverseToMidpoint_emptyString" />
+        <item itemvalue="JUnit.StringReverseUnitTest.byTraverseFromBothEnds_blankString" />
         <item itemvalue="JUnit.StringReverseUnitTest.byTraverseFromBothEnds_emptyString" />
+        <item itemvalue="JUnit.StringReverseUnitTest,bySimpleFullTraversal_randomAsciiString and 7 more" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653173436926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added a string reversal variation">
+      <created>1653173707822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653173707822</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
