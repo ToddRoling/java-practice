@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="made method private">
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="renamed methods for consistency">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/common/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\toddr\Desktop" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/toddr/IdeaProjects/java-interview-preperation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/toddr/Desktop",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -43,23 +54,28 @@
       <recent name="local.unit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringReverseUnitTest">
-    <configuration name="StringReverseUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SearchUnitTest.binarySearch_searchInstance_targetNotFound">
+    <configuration name="SearchUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="local.unit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.github.toddroling.java.interview.preperation.common.Search" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseUnitTest.byRecursion_randomAsciiString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUnitTest.binarySearch_negativeTargetFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byRecursion_randomAsciiString" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="binarySearch_negativeTargetFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseUnitTest.byTraversalToMidpoint_blankString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUnitTest.binarySearch_searchInstance_targetNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byTraversalToMidpoint_blankString" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="binarySearch_searchInstance_targetNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseUnitTest.byTraverseFromBothEnds_blankString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUnitTest.binarySearch_singletonSearchArray_targetFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byTraverseFromBothEnds_blankString" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="binarySearch_singletonSearchArray_targetFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseUnitTest.byTraverseToMidpoint_emptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUnitTest.binarySearch_singletonSearchArray_targetNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.StringReverseUnitTest" />
-      <option name="METHOD_NAME" value="byTraverseToMidpoint_emptyString" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="binarySearch_singletonSearchArray_targetNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringReverseUnitTest" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byTraversalToMidpoint_blankString" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byRecursion_randomAsciiString" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byTraverseToMidpoint_emptyString" />
-        <item itemvalue="JUnit.StringReverseUnitTest.byTraverseFromBothEnds_blankString" />
+        <item itemvalue="JUnit.SearchUnitTest.binarySearch_searchInstance_targetNotFound" />
+        <item itemvalue="JUnit.SearchUnitTest" />
+        <item itemvalue="JUnit.SearchUnitTest.binarySearch_negativeTargetFound" />
+        <item itemvalue="JUnit.SearchUnitTest.binarySearch_singletonSearchArray_targetNotFound" />
+        <item itemvalue="JUnit.SearchUnitTest.binarySearch_singletonSearchArray_targetFound" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653176087835</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="renamed methods for consistency">
+      <created>1653176246133</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653176246133</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +275,8 @@
     <MESSAGE value="initial commits (continued)" />
     <MESSAGE value="added a string reversal variation" />
     <MESSAGE value="made method private" />
-    <option name="LAST_COMMIT_MESSAGE" value="made method private" />
+    <MESSAGE value="renamed methods for consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed methods for consistency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,7 +286,33 @@
           <line>42</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_interview_preperation$SearchUnitTest.ic" NAME="SearchUnitTest Coverage Results" MODIFIED="1653182410509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>local.unit.*</FILTER>
+      <FILTER>com.github.toddroling.java.interview.preperation.common.Search</FILTER>
+    </SUITE>
   </component>
 </project>
