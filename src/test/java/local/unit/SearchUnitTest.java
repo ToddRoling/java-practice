@@ -1,6 +1,6 @@
 package local.unit;
 
-import com.github.toddroling.java.interview.preperation.common.Search;
+import com.github.toddroling.java.interview.preperation.Search;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

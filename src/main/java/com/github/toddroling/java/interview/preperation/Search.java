@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.common;
+package com.github.toddroling.java.interview.preperation;
 
 public final class Search {
 
