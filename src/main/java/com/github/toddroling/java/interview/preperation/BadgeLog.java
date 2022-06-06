@@ -6,8 +6,8 @@ import java.util.Set;
 
 public class BadgeLog {
 
-    public static final String BADGE_LOG_ENTER_TEXT = "enter";
-    public static final String BADGE_LOG_EXIT_TEXT = "exit";
+    public static final String EMPLOYEE_ACTION_ENTER = "enter";
+    public static final String EMPLOYEE_ACTION_EXIT = "exit";
 
     public List<Set<String>> getViolations(List<String[]> badgeRecords) {
 
@@ -20,12 +20,12 @@ public class BadgeLog {
             String employeeName = badgeRecord[0];
             String employeeAction = badgeRecord[1];
 
-            if (employeeAction.equals(BADGE_LOG_ENTER_TEXT)) {
+            if (employeeAction.equals(EMPLOYEE_ACTION_ENTER)) {
                 if (occupants.contains(employeeName))
                     entriesWithoutExits.add(employeeName);
                 else
                     occupants.add(employeeName);
-            } else if (employeeAction.equals(BADGE_LOG_EXIT_TEXT)) {
+            } else if (employeeAction.equals(EMPLOYEE_ACTION_EXIT)) {
                 if (!occupants.contains(employeeName))
                     exitsWithoutEntries.add(employeeName);
                 else

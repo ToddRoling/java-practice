@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="updated pom artifact id">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/BadgeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/BadgeLogTest.java" afterDir="false" />
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="added interview problem for practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/BadgeLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/BadgeLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/BadgeLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/BadgeLogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654549203409</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added interview problem for practice">
+      <created>1654555768001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654555768001</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +294,8 @@
     <MESSAGE value="renamed methods for consistency" />
     <MESSAGE value="binary search" />
     <MESSAGE value="updated pom artifact id" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pom artifact id" />
+    <MESSAGE value="added interview problem for practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interview problem for practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
