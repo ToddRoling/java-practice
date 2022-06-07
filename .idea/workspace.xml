@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="added interview problem for practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/PalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/BadgeLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/BadgeLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/BadgeLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/BadgeLogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,25 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/toddr/Desktop&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/toddr/Desktop",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="local.unit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="local.unit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BadgeLogTest">
-    <configuration name="BadgeLogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.BadgeLogTest" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BadgeLogTest.getViolationsTest_manyEnterViolations_differentPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.isPalindrome_longString_invalidPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.BadgeLogTest" />
-      <option name="METHOD_NAME" value="getViolationsTest_manyEnterViolations_differentPeople" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome_longString_invalidPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BadgeLogTest.getViolationsTest_manyExitViolations_differentPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.isPalindrome_longString_validPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.BadgeLogTest" />
-      <option name="METHOD_NAME" value="getViolationsTest_manyExitViolations_differentPeople" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome_longString_validPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BadgeLogTest.getViolationsTest_manyViolations_mediumLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.isPalindrome_stringLengthThree_invalidPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.BadgeLogTest" />
-      <option name="METHOD_NAME" value="getViolationsTest_manyViolations_mediumLog" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome_stringLengthThree_invalidPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BadgeLogTest.getViolationsTest_manyViolations_smallLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.isPalindrome_stringLengthThree_validPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.BadgeLogTest" />
-      <option name="METHOD_NAME" value="getViolationsTest_manyViolations_smallLog" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome_stringLengthThree_validPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BadgeLogTest" />
-        <item itemvalue="JUnit.BadgeLogTest.getViolationsTest_manyViolations_mediumLog" />
-        <item itemvalue="JUnit.BadgeLogTest.getViolationsTest_manyEnterViolations_differentPeople" />
-        <item itemvalue="JUnit.BadgeLogTest.getViolationsTest_manyExitViolations_differentPeople" />
-        <item itemvalue="JUnit.BadgeLogTest.getViolationsTest_manyViolations_smallLog" />
+        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_invalidPalindrome" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_validPalindrome" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindrome_stringLengthThree_invalidPalindrome" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindrome_stringLengthThree_validPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654555768001</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added interview problem for practice">
+      <created>1654556141121</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654556141121</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +345,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_interview_preperation$PalindromeTest_isPalindrome_longString_invalidPalindrome.ic" NAME="PalindromeTest.isPalindrome_longString_invalidPalindrome Coverage Results" MODIFIED="1654618748041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>local.unit.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/java_interview_preperation$SearchUnitTest.ic" NAME="SearchUnitTest Coverage Results" MODIFIED="1653182410509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>local.unit.*</FILTER>
       <FILTER>com.github.toddroling.java.interview.preperation.common.Search</FILTER>
