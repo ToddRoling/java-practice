@@ -1,15 +1,5 @@
 package local.unit;
 
-//UNDIRECTED_INDEX_NODE_GRAPH = [
-//        [1, 3],
-//        [0, 2, 4],
-//        [1, 4, 6],
-//        [0, 5],
-//        [1, 2],
-//        [1, 3],
-//        [2]
-//        ]
-
 import com.github.toddroling.java.interview.preperation.datastructures.graph.UndirectedGraph;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

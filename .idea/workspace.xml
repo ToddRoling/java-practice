@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="ispalindrome">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/graph/UndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="bfs and dfs of undirected graph">
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654618892471</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bfs and dfs of undirected graph">
+      <created>1655520296646</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655520296646</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +325,8 @@
     <MESSAGE value="updated pom artifact id" />
     <MESSAGE value="added interview problem for practice" />
     <MESSAGE value="ispalindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="ispalindrome" />
+    <MESSAGE value="bfs and dfs of undirected graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs and dfs of undirected graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,7 +358,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java</url>
-          <line>41</line>
+          <line>31</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
