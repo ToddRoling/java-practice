@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="added interview problem for practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/PalindromeTest.java" afterDir="false" />
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="ispalindrome">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/graph/UndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/toddr/Desktop",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/toddr/Desktop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,7 +66,7 @@
       <recent name="local.unit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
+  <component name="RunManager" selected="JUnit.UndirectedGraphTest.dfsOfGraph">
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
@@ -111,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeTest.isPalindrome_stringLengthThree_invalidPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UndirectedGraphTest.bfsOfGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome_stringLengthThree_invalidPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.UndirectedGraphTest" />
+      <option name="METHOD_NAME" value="bfsOfGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeTest.isPalindrome_stringLengthThree_validPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UndirectedGraphTest.dfsOfGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome_stringLengthThree_validPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.UndirectedGraphTest" />
+      <option name="METHOD_NAME" value="dfsOfGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UndirectedGraphTest.dfsOfGraph" />
+        <item itemvalue="JUnit.UndirectedGraphTest.bfsOfGraph" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_invalidPalindrome" />
         <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_validPalindrome" />
-        <item itemvalue="JUnit.PalindromeTest.isPalindrome_stringLengthThree_invalidPalindrome" />
-        <item itemvalue="JUnit.PalindromeTest.isPalindrome_stringLengthThree_validPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654556141121</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ispalindrome">
+      <created>1654618892471</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618892471</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +321,8 @@
     <MESSAGE value="binary search" />
     <MESSAGE value="updated pom artifact id" />
     <MESSAGE value="added interview problem for practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interview problem for practice" />
+    <MESSAGE value="ispalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="ispalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -340,6 +351,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
           <line>153</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
