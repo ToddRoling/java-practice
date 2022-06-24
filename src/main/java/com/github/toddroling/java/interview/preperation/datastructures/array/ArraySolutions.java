@@ -8,7 +8,7 @@ final class ArraySolutions {
         final HashMap<Integer, Integer> frequencyMap = new HashMap<>();
         for (int element : a) {
             int frequency = frequencyMap.getOrDefault(element, 0) + 1;
-            if (frequency >= k) {
+            if (frequency == k) {
                 return element;
             }
             frequencyMap.put(element, frequency);
