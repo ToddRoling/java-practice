@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="bfs and dfs of undirected graph">
-      <change beforePath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/array/ArraySolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="local.unit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UndirectedGraphTest.dfsOfGraph">
+  <component name="RunManager" selected="JUnit.local.unit in java-interview-preperation">
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
@@ -89,22 +90,6 @@
       <option name="PACKAGE_NAME" value="local.unit" />
       <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
       <option name="METHOD_NAME" value="isPalindrome_longString_invalidPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeTest.isPalindrome_longString_validPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-interview-preperation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="local.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome_longString_validPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +127,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="local.unit in java-interview-preperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.local.unit in java-interview-preperation" />
         <item itemvalue="JUnit.UndirectedGraphTest.dfsOfGraph" />
         <item itemvalue="JUnit.UndirectedGraphTest.bfsOfGraph" />
         <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_invalidPalindrome" />
-        <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_validPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655520296646</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="bfs and dfs of undirected graph">
+      <created>1655520317007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655520317007</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
