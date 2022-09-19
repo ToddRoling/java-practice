@@ -3,24 +3,20 @@ package com.github.toddroling.java.interview.preperation;
 public final class Search {
 
     public static int binarySearch(final int[] searchArray, final int target) {
+        int leftIndex = 0;
+        int rightIndex = searchArray.length - 1;
 
-        int firstIndex = 0;
-        int lastIndex = searchArray.length - 1;
-        int targetIndex = -1;
-
-        while (targetIndex == -1 && firstIndex <= lastIndex) {
-
-            int midpointIndex = (firstIndex + lastIndex) / 2;
+        while (leftIndex <= rightIndex) {
+            int midpointIndex = (leftIndex + rightIndex) / 2;
             int midpointValue = searchArray[midpointIndex];
 
-            if (target == midpointValue)
-                targetIndex = midpointIndex;
-            else if (target < midpointValue)
-                lastIndex = midpointIndex - 1;
+            if (midpointValue == target)
+                return midpointIndex;
+            if (midpointValue < target)
+                leftIndex = midpointIndex + 1;
             else
-                firstIndex = midpointIndex + 1;
-
+                rightIndex = midpointIndex - 1;
         }
-        return targetIndex;
+        return -1;
     }
 }
