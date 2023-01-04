@@ -2,10 +2,10 @@ package com.github.toddroling.java.interview.preperation.string;
 
 import java.util.Scanner;
 
-public class Basic {
+public class Miscellaneous {
 
     // My solution to https://www.hackerrank.com/challenges/java-strings-introduction/problem
-    public static void basicStringOperations() { // main
+    public static void javaStringsIntroduction() { // main
 
         final Scanner sc = new Scanner(System.in);
         final String stringOne = sc.next();
