@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="bfs and dfs of undirected graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/datastructures/array/ArraySolutions.java" afterDir="false" />
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="simple hacker rank problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +63,8 @@
       <recent name="local.unit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.local.unit in java-interview-preperation">
-    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalendarSolutionsTest.findDay">
+    <configuration name="CalendarSolutionsTest.findDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +73,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.CalendarSolutionsTest" />
+      <option name="METHOD_NAME" value="findDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.constructor_withData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.LinkedListTest" />
+      <option name="METHOD_NAME" value="constructor_withData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.constructor_withHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.LinkedListTest" />
+      <option name="METHOD_NAME" value="constructor_withHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-interview-preperation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="local.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="local.unit" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeTest.isPalindrome_longString_invalidPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUnitTest.binarySearch_targetAtIndexZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-interview-preperation" />
       <extension name="coverage">
         <pattern>
@@ -88,66 +136,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.PalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome_longString_invalidPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="local.unit.SearchUnitTest" />
+      <option name="METHOD_NAME" value="binarySearch_targetAtIndexZero" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndirectedGraphTest.bfsOfGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-interview-preperation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="local.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.UndirectedGraphTest" />
-      <option name="METHOD_NAME" value="bfsOfGraph" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndirectedGraphTest.dfsOfGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-interview-preperation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="local.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="MAIN_CLASS_NAME" value="local.unit.UndirectedGraphTest" />
-      <option name="METHOD_NAME" value="dfsOfGraph" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="local.unit in java-interview-preperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-interview-preperation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="local.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="local.unit" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.local.unit in java-interview-preperation" />
-        <item itemvalue="JUnit.UndirectedGraphTest.dfsOfGraph" />
-        <item itemvalue="JUnit.UndirectedGraphTest.bfsOfGraph" />
-        <item itemvalue="JUnit.PalindromeTest" />
-        <item itemvalue="JUnit.PalindromeTest.isPalindrome_longString_invalidPalindrome" />
+        <item itemvalue="JUnit.CalendarSolutionsTest.findDay" />
+        <item itemvalue="JUnit.LinkedListTest.constructor_withData" />
+        <item itemvalue="JUnit.LinkedListTest.constructor_withHead" />
+        <item itemvalue="JUnit.SearchUnitTest" />
+        <item itemvalue="JUnit.SearchUnitTest.binarySearch_targetAtIndexZero" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +309,56 @@
       <option name="project" value="LOCAL" />
       <updated>1655520317007</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="did an array problem">
+      <created>1656113209022</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656113209022</updated>
+    </task>
+    <task id="LOCAL-00023" summary="did an array problem">
+      <created>1656113274681</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656113274681</updated>
+    </task>
+    <task id="LOCAL-00024" summary="did an array problem">
+      <created>1656113291511</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656113291511</updated>
+    </task>
+    <task id="LOCAL-00025" summary="did an array problem">
+      <created>1663602398551</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663602398551</updated>
+    </task>
+    <task id="LOCAL-00026" summary="started working on personal LinkedList">
+      <created>1663954014405</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663954014405</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Starting HackerRank problems. Added a solution for a calendar challenge.">
+      <created>1672709661396</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672709661396</updated>
+    </task>
+    <task id="LOCAL-00028" summary="simple hacker rank problem">
+      <created>1672711275780</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672711275780</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +383,11 @@
     <MESSAGE value="added interview problem for practice" />
     <MESSAGE value="ispalindrome" />
     <MESSAGE value="bfs and dfs of undirected graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="bfs and dfs of undirected graph" />
+    <MESSAGE value="did an array problem" />
+    <MESSAGE value="started working on personal LinkedList" />
+    <MESSAGE value="Starting HackerRank problems. Added a solution for a calendar challenge." />
+    <MESSAGE value="simple hacker rank problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple hacker rank problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,11 +396,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/local/unit/StringReverseUnitTest.java</url>
           <line>42</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/local/unit/SearchUnitTest.java</url>
@@ -366,6 +416,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/local/unit/UndirectedGraphTest.java</url>
           <line>31</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/Search.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/local/unit/LinkedListTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
