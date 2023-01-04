@@ -19,5 +19,16 @@ public class Miscellaneous {
     private static String capitalize(final String string) {
         return string.substring(0, 1).toUpperCase() + string.substring(1);
     }
+
+    // My solution to https://www.hackerrank.com/challenges/java-substring/problem
+    public static void javaSubstring() {
+
+        Scanner in = new Scanner(System.in);
+        String string = in.next();
+        int beginIndex = in.nextInt();
+        int endIndex = in.nextInt();
+
+        System.out.println(string.substring(beginIndex, endIndex));
+    }
 }
 

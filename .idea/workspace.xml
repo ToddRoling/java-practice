@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="simple hacker rank problem">
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="renamed class and method so i can add multiple solution methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Miscellaneous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Miscellaneous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Miscellaneous.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672866067414</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="renamed class and method so i can add multiple solution methods">
+      <created>1672866201887</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1672866201887</updated>
+    </task>
+    <task id="LOCAL-00033" summary="renamed class and method so i can add multiple solution methods">
+      <created>1672866207262</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672866207262</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +422,8 @@
     <MESSAGE value="started working on personal LinkedList" />
     <MESSAGE value="Starting HackerRank problems. Added a solution for a calendar challenge." />
     <MESSAGE value="simple hacker rank problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple hacker rank problem" />
+    <MESSAGE value="renamed class and method so i can add multiple solution methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed class and method so i can add multiple solution methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
