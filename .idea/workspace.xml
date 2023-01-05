@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="renamed class and method so i can add multiple solution methods">
+    <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="did simple hacker rank substring problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/designpatterns/factory/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -399,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672866514600</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="did simple hacker rank substring problem">
+      <created>1672866596183</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1672866596183</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +438,8 @@
     <MESSAGE value="Starting HackerRank problems. Added a solution for a calendar challenge." />
     <MESSAGE value="simple hacker rank problem" />
     <MESSAGE value="renamed class and method so i can add multiple solution methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed class and method so i can add multiple solution methods" />
+    <MESSAGE value="did simple hacker rank substring problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="did simple hacker rank substring problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
