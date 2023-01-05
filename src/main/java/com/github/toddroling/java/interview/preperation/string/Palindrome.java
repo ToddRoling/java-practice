@@ -2,8 +2,7 @@ package com.github.toddroling.java.interview.preperation.string;
 
 public class Palindrome {
 
-    // My solution to https://www.hackerrank.com/challenges/java-string-reverse/problem
-    // Problem is listed as a string reverse problem, which is related, but it is more a palindrome problem
+    // My solution (indirect) to https://www.hackerrank.com/challenges/java-string-reverse/problem
     public static boolean isPalindrome(final String input) {
         if (input == null)
             return false;
