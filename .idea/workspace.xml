@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac167ef1-5136-402e-b53a-4bacc0da2821" name="Changes" comment="more hacker rank problems - factory and palindrome">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/toddroling/java/interview/preperation/string/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -414,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672956376280</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="more hacker rank problems - factory and palindrome">
+      <created>1672956475945</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1672956475945</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
