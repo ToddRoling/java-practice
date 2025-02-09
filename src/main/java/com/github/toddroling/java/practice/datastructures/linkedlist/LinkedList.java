@@ -61,7 +61,7 @@ public final class LinkedList {
 
     public static final class Node {
         private Node next;
-        private final String data;
+        private String data;
 
         public Node(final String data) {
             this.data = data;
