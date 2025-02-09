@@ -1,6 +1,6 @@
 package local.unit;
 
-import com.github.toddroling.java.interview.preperation.datastructures.linkedlist.LinkedList;
+import com.github.toddroling.java.practice.datastructures.linkedlist.LinkedList;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.datastructures.graph;
+package com.github.toddroling.java.practice.datastructures.graph;
 
 import java.util.*;
 

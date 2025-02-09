@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.string;
+package com.github.toddroling.java.practice.string;
 
 public class Anagram {
 

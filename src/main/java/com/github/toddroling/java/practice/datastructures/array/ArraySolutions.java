@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.datastructures.array;
+package com.github.toddroling.java.practice.datastructures.array;
 
 import java.util.HashMap;
 import java.util.List;

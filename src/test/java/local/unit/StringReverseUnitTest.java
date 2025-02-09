@@ -1,6 +1,6 @@
 package local.unit;
 
-import com.github.toddroling.java.interview.preperation.string.StringReverse;
+import com.github.toddroling.java.practice.string.StringReverse;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;

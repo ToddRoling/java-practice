@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.date;
+package com.github.toddroling.java.practice.date;
 
 import java.util.Calendar;
 

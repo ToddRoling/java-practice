@@ -1,6 +1,6 @@
 package local.unit;
 
-import com.github.toddroling.java.interview.preperation.datastructures.graph.UndirectedGraph;
+import com.github.toddroling.java.practice.datastructures.graph.UndirectedGraph;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

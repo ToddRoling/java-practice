@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation.datastructures.linkedlist;
+package com.github.toddroling.java.practice.datastructures.linkedlist;
 
 public final class LinkedList {
 
@@ -61,7 +61,7 @@ public final class LinkedList {
 
     public static final class Node {
         private Node next;
-        private String data;
+        private final String data;
 
         public Node(final String data) {
             this.data = data;

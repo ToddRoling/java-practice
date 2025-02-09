@@ -1,6 +1,6 @@
 package local.unit;
 
-import com.github.toddroling.java.interview.preperation.string.Palindrome;
+import com.github.toddroling.java.practice.string.Palindrome;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 

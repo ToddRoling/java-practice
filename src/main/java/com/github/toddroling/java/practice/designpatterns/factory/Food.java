@@ -1,9 +1,9 @@
-package com.github.toddroling.java.interview.preperation.designpatterns.factory;
+package com.github.toddroling.java.practice.designpatterns.factory;
 
 // My solution to https://www.hackerrank.com/challenges/java-factory/problem
 // Note I think these would be better separated into different files, but the problem requires this style
 interface Food {
-    public String getType();
+    String getType();
 }
 
 class Pizza implements Food {

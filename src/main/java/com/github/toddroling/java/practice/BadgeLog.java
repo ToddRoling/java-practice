@@ -1,4 +1,4 @@
-package com.github.toddroling.java.interview.preperation;
+package com.github.toddroling.java.practice;
 
 import java.util.HashSet;
 import java.util.List;
